@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <title>MODUS versus</title>
+</head>
+
+<body>
+<div id="container">
+    <header class="bg1">
+        <h1>modus</h1> 
+        <h3>versus</h3>
+            <nav>
+                <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="#" class="subm">portfolio</a>
+
+                    <div id="triangle"></div>
+                    <ul>
+                        <li ><a href="#" class="subm2">portfolio 1 column page</a>
+                        
+                            <ul>
+                                <li> <a href="#">portfolio 1_1 column page</a></li>
+                            </ul>
+                        </li>
+                        <li ><a href="#" class="subm2">portfolio 2 column page</a>
+                            <ul>
+                                <li><a href="#">portfolio 2-1 column page</a></li>
+                                <li><a href="#">portfolio 2-2 column page</a></li> 
+                            </ul>
+                        </li>
+                        <li><a href="#" class="subm2">portfolio 3 column page</a>
+                        
+                        <ul>
+                            <li><a href="#">portfolio 3-1 column page</a></li>
+                            <li><a href="#">portfolio 3-2 column page</a></li>
+                            <li><a href="#">portfolio 3-3 column page</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="#">blog</a></li>
+                <li><a href="#">features</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#"> <i class="fa fa-search"></i></a>
+                <input type="search" id="search" placeholder="Search..." /> 
+            </li>
+         </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="subject">
+            <h1>vestibulum</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing  elit. Ipsa beatae facilis minima </p>
+        </div>
+        <!--first slider-->
+        <div id="slider" class="slider" >
+            <div><img src="images/city.jpg" alt="Image not found"></div>
+            <div><img src="images/laptop.jpg" alt="Image not found"></div>
+            <div><img src="images/discussion.jpg" alt="Image not found"></div>
+        </div>
+    
+      <script type="text/javascript" src="slick/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="slick/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('#slider').slick({
+              dots : true,
+              autoplay : true,
+              autoplaySpeed : 50000,
+              infinite :true,
+              speed: 400,
+              arrows :true,
+              fade:true
+          });
+        });
+      </script> 
+
+        <div id="section1">
+            <h1>Some of our top services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quaerat quidem voluptate provident id ipsum ad ratione adipisci</p>
+            <a href="#">view more</a>
+        </div>
+<!--attribute-->
+<div id="section2">
+    <nav>
+        <ul>
+            <li>
+                <i class="fa fa-thumbs-o-up"></i>
+                <h3>suspendisse</h3>
+                <p>Lorem ipsum dolor consectetur sit amet consectetur adipisicing elit. Commodi, obcaecati raesent quaerat. Totam aspernatur labore accusantium, minus culpa similique praesentium</p><a href="#">read more</a>
+            </li>
+            <li>
+                <i class="fa fa-key"></i>
+                <h3>marcenas</h3>
+                <p>Dicta, eaque sed consequatur ad dolore quam esse officia cumque ea ipsum assumenda  praesentium assumenda sequi repellat adipisci perferendis assumenda expedita</p><a href="#">read more</a>
+            </li>
+            <li>
+                <i class="fa fa-flag"></i>
+                <h3>aliquam</h3>
+                <p>Voluptatum cumque ad maxime, accusamus, beatae non corrupti provident cum praesentium dolorem tempora corrupti repudiandae, possimus polijhd consectetur</p><a href="#">read more</a>
+            </li>
+            <li>
+                <i class="fa fa-flask"></i>
+                <h3>habitasse</h3>
+                <p>Quod sequi minus a veniam consectetur assumenda tempora  assumenda tempora corporis omnis tempora atque quia quisquam nobis, error assumenda tempora dignissimos</p><a href="#">read more</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<!--gallery-->
+<div id="section3" class="bg2">
+    <h1>why modus versus?</h1>
+    <p>Lorem ipsum dolor sit amet consectur adipisicg elit. Assumenda, distitio Lorem ipsum  Consequ voluptate</p>
+        <nav>
+            <ul>
+                <li>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-minus"></i>
+                    <img src="images/startup.jpg"alt="Image not found"></li>
+
+                <li>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-minus"></i>
+                    <img src="images/people.jpg" alt="Image not found"></li>
+
+                <li>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-minus"></i>
+                    <img src="images/time.jpg" alt="Image not found">
+                </li>
+
+            </ul>
+        </nav>
+</div>
+        <div id="section4">
+            <div id="section4-1">
+            <h3>why choose us?</h3>
+                <ul>
+                    <li class="listicon">Lorem ipsum dolor sit</li>
+                    <li class="listicon">Sint nam eius asperior</li>
+                    <li class="listicon">Dignissimos iure officia</li>
+                    <li class="listicon">Accusamus dolor ab al</li>
+                    <li class="listicon">Alibam minima moltia</li>
+                    <li class="listicon">Dolores ducus odirdo</li>
+                </ul>
+            </div>
+            <!--circles-->
+        <div id="section4-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea mollitia <a href="#">nostrum similique</a> quod assumenda exercitationem voluptate omnis minima blanditiis officiis?</p>
+            <ul>
+                <li>    
+                    <div class="circle">
+                        <span>50</span></div><h3>suspendisse</h3></li>
+                <li>    
+                    <div class="circle">
+                        <span>70</span> </div><h3>marcenas</h3></li>
+                <li>    
+                    <div class="circle">
+                        <span>80</span> </div><h3>aliquam</h3></li>
+                <li>    
+                    <div class="circle">
+                        <span>100</span></div><h3>habitasse</h3></li>
+            </ul>
+        </div>
+        
+        <div id="section4-3">
+            <h3> what clinet's say?</h3>
+            <p>Lorem ipsum dolor sit amet consur conse ctetur adipi sicing elit. Aliquid voluptates commodi maiores volupta tibus cupiditate doloremque luptat explicabo impedit  assumenda</p>
+            <span>jhon Doe</span>
+            </div>
+    </div>
+
+        <!--second slider-->
+        <div id="section5">
+        <h2>our happy clients</h2>
+        <form><div class="slidecontainer">
+            <input type="range" min="1" max="100" value="0" class="scroll" id="myRange">   
+          </div>
+        </form>
+        <div id="slider2" class="slider2" >
+            
+            <div><img src="images/flower.jpg"  alt="Image not found"></div>
+            <div><img src="images/flower1.jpg" alt="Image not found"></div>
+            <div><img src="images/flower2.jpg" alt="Image not found"></div>
+            <div><img src="images/flower3.jpg" alt="Image not found"></div>
+            <div><img src="images/flower4.jpg" alt="Image not found"></div>
+            <div><img src="images/flower5.jpg" alt="Image not found"></div>
+            <div><img src="images/flower6.jpg" alt="Image not found"></div>
+            <div><img src="images/flower1.jpg" alt="Image not found"></div>
+        </div>
+    </div>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('#slider2').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            verticalSwiping:true
+    
+          });
+        });
+
+        
+      </script> 
+    </main>
+
+<footer class="bg2">
+    <div id="aboutus">
+        <h1>modus</h1>
+            <h3>versus</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Veniam sapiente ipsam officia eius vel provident laudantium architecto Ea illo quidem obcaecati</p>
+    <nav>
+        <ul>
+            <li> <span>phone:</span> <i>182 2569 5896</i></li>
+            <li> <span>e-mail:</span><i>info@modv.versus</i></li>
+        </ul>
+    </nav>
+</div>
+
+<div id="company">
+        <h2 class="footer-h2">company</h2>
+        <nav>
+            <ul>
+            <li class="bullet"><a href="#">about</a></li>
+            <li class="bullet"><a href="#">faq</a></li>
+            <li class="bullet"><a href="#">contact</a></li>
+            <li class="bullet"><a href="#">teams</a></li>
+            <li class="bullet"><a href="#">privacy</a></li>
+            <li class="bullet"><a href="#">testimonilas</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div id="community">
+    <h2 class="footer-h2">community</h2>
+        <nav>
+            <ul >
+                <li class="bullet"><a href="#">blog</a></li>
+                <li class="bullet"><a href="#">forum</a></li>
+                <li class="bullet"><a href="#">support</a></li>
+                <li class="bullet"><a href="#">newsletter</a></li>
+            </ul>
+        </nav>
+    </div>
+
+<div id="blog">
+    <span><i>from the</i></span><h1> blog</h1>    
+    <nav>  
+        <ul>
+            <li><i class="fa fa-picture-o"></i>
+                <p>Lorem ipsum dolor sit amet consectet excepturi</p>
+                <span>26 may,2013</span>
+            </li>
+            
+            <li><i class="fa fa-picture-o"></i>
+                <p>Lorem ipsum dolor sit amet consectet nobipohs</p>
+                <span>26 may,2013</span>
+            </li>
+        </ul>
+      </nav>   
+</div> 
+        
+</footer>
+     <div id="subfooter" >
+        <span>2012 modus versus</span>
+            <ul>
+                <li><i class="fa fa-facebook"></i></li>
+                <li><i class="fa fa-google-plus"></i></li>
+                <li><i class="fa fa-twitter"></i></li>
+                <li><i class="fa fa-rss"></i></li>
+            </ul>
+    </div>
+</div>
+
+</body>
+</html>
